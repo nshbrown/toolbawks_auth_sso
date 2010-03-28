@@ -1,0 +1,4 @@
+<title>Toolbawks Single Sign On with <%= ToolbawksAuthSso.AUTH_TYPE.upcase %></title>
+<%= toolbawks_core_head(:base => true, :control_modal => true) %>
+<%= javascript_include_tag 'Plugin.auth_sso.Example.js', :plugin => 'toolbawks_auth_sso' %>
+<%= toolbawks_auth_sso_head(:domain => false, :path_controller => '/sso', :console => true) %>

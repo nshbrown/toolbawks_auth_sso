@@ -1,0 +1,45 @@
+#modal_container {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+	padding: 5px;
+	background-color: #fff;
+	overflow: auto;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#modal_overlay {
+	background-color: #b2ccff;
+}
+
+.toolbawks_auth_sso_login_box {
+  position: relative;
+}
+
+form#toolbawks_auth_sso_login {
+  width: 190px;
+  margin: 0 auto;
+  padding: 5px 0 5px 10px;
+}
+
+#toolbawks_auth_sso_login_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#toolbawks_auth_sso_login_close a,
+#toolbawks_auth_sso_login_close a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#toolbawks_auth_sso_login_close a:hover {
+  text-decoration: underline;
+}
+
+#toolbawks_auth_sso_login_message {
+  
+}
